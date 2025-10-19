@@ -81,6 +81,17 @@ ros2_ws/
  ├── map.yaml     # Saved map
  ├── map.pgm
  └── README.md
+## URDF (Robot Description)
+
+This project uses the **TurtleBot3 URDF model** (`turtlebot3_burger.urdf.xacro`) for:
+
+- Defining the robot’s physical structure (links, joints, dimensions)
+- Simulating sensors (LIDAR, camera) in Gazebo
+- Providing the footprint and transforms to Navigation2 for path planning
+
+The URDF file is included in the **TurtleBot3 description package** and loaded automatically during simulation.
+
+
 Notes
 This project demonstrates autonomous navigation up to Step 4.
 
